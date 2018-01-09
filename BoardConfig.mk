@@ -125,6 +125,11 @@ TARGET_NO_RPC := true
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 DEVICE_MATRIX_FILE   := $(DEVICE_PATH)/compatibility_matrix.xml
 
+# Properties
+TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
+
+
+
 # HWUI
 HWUI_COMPILE_FOR_PERF := true
 
