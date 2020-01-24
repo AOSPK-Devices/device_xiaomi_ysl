@@ -135,6 +135,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/component-overrides.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/component-overrides.xml
 
+# Boot SPL
+BOOT_SECURITY_PATCH = $(PLATFORM_SECURITY_PATCH)
+
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
@@ -407,6 +410,9 @@ PRODUCT_COPY_FILES += \
 # USB HAL
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service.ysl
+
+# Vendor SPL
+VENDOR_SECURITY_PATCH = $(PLATFORM_SECURITY_PATCH)
 
 # VNDK
 PRODUCT_PACKAGES += \
