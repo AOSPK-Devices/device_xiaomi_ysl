@@ -1,13 +1,14 @@
 [
   {
-    "remote": "devices",
+    "remote": "hub-devices",
     "repository": "vendor_xiaomi_ysl",
     "target_path": "vendor/xiaomi/ysl"
   },
   {
-    "remote": "devices",
-    "repository": "kernel_xiaomi_ysl",
+    "repository": "ItsVixano/androidkernel_xiaomi_ysl",
     "target_path": "kernel/xiaomi/ysl"
+    "branch": "eleven",
+    "remote": "github"
   },
   {
     "repository": "Jabiyeff/android_hardware_qcom_display",
