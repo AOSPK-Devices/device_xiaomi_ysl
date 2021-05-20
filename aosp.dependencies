@@ -1,12 +1,11 @@
 [
   {
-    "remote": "hub-devices",
     "repository": "vendor_xiaomi_ysl",
     "target_path": "vendor/xiaomi/ysl"
   },
   {
-    "repository": "ItsVixano/androidkernel_xiaomi_ysl",
-    "target_path": "kernel/xiaomi/ysl"
+    "repository": "ItsVixano/android_kernel_xiaomi_ysl",
+    "target_path": "kernel/xiaomi/ysl",
     "branch": "eleven",
     "remote": "github"
   },
