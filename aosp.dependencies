@@ -4,10 +4,8 @@
     "target_path": "vendor/xiaomi/ysl"
   },
   {
-    "repository": "ItsVixano/android_kernel_xiaomi_ysl",
-    "target_path": "kernel/xiaomi/ysl",
-    "branch": "eleven",
-    "remote": "github"
+    "repository": "kernel_xiaomi_ysl",
+    "target_path": "kernel/xiaomi/ysl"
   },
   {
     "repository": "Jabiyeff/android_hardware_qcom_display",
