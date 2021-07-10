@@ -1,7 +1,9 @@
 [
   {
+    "remote": "blobs",
     "repository": "vendor_xiaomi_ysl",
-    "target_path": "vendor/xiaomi/ysl"
+    "target_path": "vendor/xiaomi/ysl",
+    "branch": "eleven"
   },
   {
     "repository": "kernel_xiaomi_ysl",
