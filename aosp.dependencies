@@ -1,10 +1,12 @@
 [
   {
+    "remote": "blobs",
     "repository": "vendor_xiaomi_ysl",
-    "target_path": "vendor/xiaomi/ysl"
+    "target_path": "vendor/xiaomi/ysl",
+    "branch": "eleven"
   },
   {
-    "repository": "ItsVixano/android_kernel_xiaomi_ysl",
+    "repository": "Dustxyz/android_kernel_xiaomi_ysl",
     "target_path": "kernel/xiaomi/ysl",
     "branch": "eleven",
     "remote": "github"
