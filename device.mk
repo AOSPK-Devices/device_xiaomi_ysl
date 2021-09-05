@@ -146,7 +146,6 @@ PRODUCT_PACKAGES += \
     libdng_sdk.vendor \
     libmm-qcamera \
     libstdc++.vendor \
-    Snap
 
 # ConsumerIr
 PRODUCT_PACKAGES += \
